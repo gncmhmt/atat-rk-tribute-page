@@ -1,0 +1,99 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+header h1, p {
+  text-align: center;
+}
+
+header {
+  background-color: #f1f1f1;
+}
+
+#headline {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+li {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.tribute_image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-left: 250px;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.tribute {
+  text-align: center;
+}
+.tribute-link {
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+.tribute-link { 
+  cursor: pointer; 
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+.img-caption {
+  position:absolute;
+  left: 380px;
+  text-align: center;
+  padding-left: 240px;
+}
+
+.img-div {
+  background: white;
+  padding: 40px;
+  margin: 0;
+}
+
+.tribute-info {
+  padding-left: 10px;
+}
+
+.header_content {
+  padding-bottom: 20px;
+}
